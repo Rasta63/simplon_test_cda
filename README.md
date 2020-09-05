@@ -14,11 +14,11 @@
 
 - [Postman](https://www.postman.com/downloads/)
 
-Après les prérequis et avoir récupérer le dépôt, exécuter la commande suivante pour installer les dépendances :
+### installation des dépendances :
 
 ```composer install```
 
-Création de la base de donnés :
+### Création de la base de donnés :
 
 ```php bin/console doctrine:database:create```
 
@@ -27,19 +27,21 @@ Bien s'assurer que le server wamp est bien lancé.
 Le lien de configuration de la base de donné se trouve dans le fichier .env, en temps normal je le mettrais dans un fichier .env.local et l’ajouter dans le gitignore pour ne pas donner des information sensible comme le nom de la base, le nom d’utilisateur et le mots de passe. 
 
 
-Exécuter les migrations avec cette commande :  
+- Exécuter les migrations avec cette commande :  
 ```php bin/console doctrine:migrations:migrate```
 
-Tester les routes avec les méthodes CRUD pour les utilisateurs, lancer le serveur symfony :
+### Tester les routes avec les méthodes CRUD sur les utilisateurs
+
+- lancer le serveur symfony :
  ```symfony server:start```
 
-Puis  lancez postman pour envoyer des requêtes http
+- Lancez postman pour envoyer des requêtes http à l'app
 
-les routes : 
-/users , methodes (GET,POST)
-/users/{id}, methodes (GET,PUT,DELETE)
+### Les routes : 
+ - /users , methodes (GET,POST)
+ - /users/{id}, methodes (GET,PUT,DELETE)
 
-Pensez à ajouter des utilisateurs avec la methodes POST avant de lancer les autres méthodes.
+Ajout d'utilisateurs avec la methodes POST avant de lancer les autres méthodes.
 
 Exepmle : 
 
