@@ -21,6 +21,7 @@ Après les prérequis et avoir récupérer le dépôt, exécuter la commande sui
 Création de la base de donnés :
 
 ```php bin/console doctrine:database:create```
+
 Bien s'assurer que le server wamp est bien lancé. 
 
 Le lien de configuration de la base de donné se trouve dans le fichier .env, en temps normal je le mettrais dans un fichier .env.local et l’ajouter dans le gitignore pour ne pas donner des information sensible comme le nom de la base, le nom d’utilisateur et le mots de passe. 
