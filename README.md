@@ -30,18 +30,18 @@ Le lien de configuration de la base de donné se trouve dans le fichier .env, en
 - Exécuter les migrations avec cette commande :  
 ```php bin/console doctrine:migrations:migrate```
 
-### Tester les routes avec les méthodes CRUD sur les utilisateurs
+### Test des routes avec les méthodes CRUD sur les utilisateurs
 
 - Execute du serveur symfony :
  ```symfony server:start```
 
-- Lancez postman pour envoyer des requêtes http à l'app
+- Lancez postman pour envoyer des requêtes http à l'app ainsi tester les urls
 
 ### Les routes : 
  - /users , methodes (GET,POST)
  - /users/{id}, methodes (GET,PUT,DELETE)
 
-Ajout d'utilisateurs avec la methodes POST avant de lancer les autres méthodes.
+Ajout d'utilisateurs avec la methodes POST, avant de lancer les autres méthodes.
 
 Exemple : 
 
