@@ -42,13 +42,4 @@ Pensez à ajouter des utilisateurs avec la methodes POST avant de lancer les aut
 
 Exepmle : 
 
-- Method POST 
-- Body de la requêtes
-
-```json
-{
-    "email" : "example@email.fr",  
-    "password" : "HardPassWord",
-    "birthDate" : "1970-01-30"
-}
-```
+![alt text](https://github.com/Rasta63/simplon_test_cda/blob/master/CapturePostMan.PNG "Capture d'écran postman")
