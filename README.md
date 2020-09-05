@@ -14,7 +14,7 @@
 
 - [Postman](https://www.postman.com/downloads/)
 
-### installation des dépendances :
+### Installation des dépendances :
 
 ```composer install```
 
@@ -32,7 +32,7 @@ Le lien de configuration de la base de donné se trouve dans le fichier .env, en
 
 ### Tester les routes avec les méthodes CRUD sur les utilisateurs
 
-- lancer le serveur symfony :
+- Execute du serveur symfony :
  ```symfony server:start```
 
 - Lancez postman pour envoyer des requêtes http à l'app
@@ -43,6 +43,6 @@ Le lien de configuration de la base de donné se trouve dans le fichier .env, en
 
 Ajout d'utilisateurs avec la methodes POST avant de lancer les autres méthodes.
 
-Exepmle : 
+Exemple : 
 
 ![alt text](https://github.com/Rasta63/simplon_test_cda/blob/master/CapturePostMan.PNG "Capture d'écran postman")
