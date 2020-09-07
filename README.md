@@ -43,6 +43,6 @@ Le lien de configuration de la base de donné se trouve dans le fichier .env, en
 
 Ajout d'utilisateurs avec la methodes POST, avant de lancer les autres méthodes.
 
-Exemple : 
+Exemple :
 
 ![alt text](https://github.com/Rasta63/simplon_test_cda/blob/master/CapturePostMan.PNG "Capture d'écran postman")
